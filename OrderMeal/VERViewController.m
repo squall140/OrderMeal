@@ -8,16 +8,15 @@
 
 #import "VERViewController.h"
 
-@interface VERViewController ()
-
-@end
+//modified!here!
 
 @implementation VERViewController
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    NSLog(@"welcome");
+	     
 }
 
 - (void)didReceiveMemoryWarning
