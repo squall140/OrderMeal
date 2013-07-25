@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E673814417A0B814003132FA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E673814317A0B814003132FA /* UIKit.framework */; };
+		E673814617A0B814003132FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E673814517A0B814003132FA /* Foundation.framework */; };
+		E673814817A0B814003132FA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E673814717A0B814003132FA /* CoreGraphics.framework */; };
+		E673814E17A0B814003132FA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E673814C17A0B814003132FA /* InfoPlist.strings */; };
+		E673815017A0B814003132FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E673814F17A0B814003132FA /* main.m */; };
+		E673815417A0B814003132FA /* VERAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E673815317A0B814003132FA /* VERAppDelegate.m */; };
+		E673815617A0B814003132FA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E673815517A0B814003132FA /* Default.png */; };
+		E673815817A0B814003132FA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E673815717A0B814003132FA /* Default@2x.png */; };
+		E673815A17A0B815003132FA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E673815917A0B815003132FA /* Default-568h@2x.png */; };
+		E673815D17A0B815003132FA /* VERViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E673815C17A0B815003132FA /* VERViewController.m */; };
+		E673816017A0B815003132FA /* VERViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E673815E17A0B815003132FA /* VERViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E673813F17A0B814003132FA /* OrderMeal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrderMeal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E673814317A0B814003132FA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E673814517A0B814003132FA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E673814717A0B814003132FA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E673814B17A0B814003132FA /* OrderMeal-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OrderMeal-Info.plist"; sourceTree = "<group>"; };
+		E673814D17A0B814003132FA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E673814F17A0B814003132FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E673815117A0B814003132FA /* OrderMeal-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OrderMeal-Prefix.pch"; sourceTree = "<group>"; };
+		E673815217A0B814003132FA /* VERAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VERAppDelegate.h; sourceTree = "<group>"; };
+		E673815317A0B814003132FA /* VERAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VERAppDelegate.m; sourceTree = "<group>"; };
+		E673815517A0B814003132FA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		E673815717A0B814003132FA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		E673815917A0B815003132FA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E673815B17A0B815003132FA /* VERViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VERViewController.h; sourceTree = "<group>"; };
+		E673815C17A0B815003132FA /* VERViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VERViewController.m; sourceTree = "<group>"; };
+		E673815F17A0B815003132FA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/VERViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E673813C17A0B814003132FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E673814417A0B814003132FA /* UIKit.framework in Frameworks */,
+				E673814617A0B814003132FA /* Foundation.framework in Frameworks */,
+				E673814817A0B814003132FA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E673813417A0B814003132FA = {
+			isa = PBXGroup;
+			children = (
+				E673814917A0B814003132FA /* OrderMeal */,
+				E673814217A0B814003132FA /* Frameworks */,
+				E673814017A0B814003132FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E673814017A0B814003132FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E673813F17A0B814003132FA /* OrderMeal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E673814217A0B814003132FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E673814317A0B814003132FA /* UIKit.framework */,
+				E673814517A0B814003132FA /* Foundation.framework */,
+				E673814717A0B814003132FA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E673814917A0B814003132FA /* OrderMeal */ = {
+			isa = PBXGroup;
+			children = (
+				E673815217A0B814003132FA /* VERAppDelegate.h */,
+				E673815317A0B814003132FA /* VERAppDelegate.m */,
+				E673815B17A0B815003132FA /* VERViewController.h */,
+				E673815C17A0B815003132FA /* VERViewController.m */,
+				E673815E17A0B815003132FA /* VERViewController.xib */,
+				E673814A17A0B814003132FA /* Supporting Files */,
+			);
+			path = OrderMeal;
+			sourceTree = "<group>";
+		};
+		E673814A17A0B814003132FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E673814B17A0B814003132FA /* OrderMeal-Info.plist */,
+				E673814C17A0B814003132FA /* InfoPlist.strings */,
+				E673814F17A0B814003132FA /* main.m */,
+				E673815117A0B814003132FA /* OrderMeal-Prefix.pch */,
+				E673815517A0B814003132FA /* Default.png */,
+				E673815717A0B814003132FA /* Default@2x.png */,
+				E673815917A0B815003132FA /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E673813E17A0B814003132FA /* OrderMeal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E673816317A0B815003132FA /* Build configuration list for PBXNativeTarget "OrderMeal" */;
+			buildPhases = (
+				E673813B17A0B814003132FA /* Sources */,
+				E673813C17A0B814003132FA /* Frameworks */,
+				E673813D17A0B814003132FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OrderMeal;
+			productName = OrderMeal;
+			productReference = E673813F17A0B814003132FA /* OrderMeal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E673813617A0B814003132FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = VER;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Vertechs;
+			};
+			buildConfigurationList = E673813917A0B814003132FA /* Build configuration list for PBXProject "OrderMeal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E673813417A0B814003132FA;
+			productRefGroup = E673814017A0B814003132FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E673813E17A0B814003132FA /* OrderMeal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E673813D17A0B814003132FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E673814E17A0B814003132FA /* InfoPlist.strings in Resources */,
+				E673815617A0B814003132FA /* Default.png in Resources */,
+				E673815817A0B814003132FA /* Default@2x.png in Resources */,
+				E673815A17A0B815003132FA /* Default-568h@2x.png in Resources */,
+				E673816017A0B815003132FA /* VERViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E673813B17A0B814003132FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E673815017A0B814003132FA /* main.m in Sources */,
+				E673815417A0B814003132FA /* VERAppDelegate.m in Sources */,
+				E673815D17A0B815003132FA /* VERViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E673814C17A0B814003132FA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E673814D17A0B814003132FA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E673815E17A0B815003132FA /* VERViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E673815F17A0B815003132FA /* en */,
+			);
+			name = VERViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E673816117A0B815003132FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		E673816217A0B815003132FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E673816417A0B815003132FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OrderMeal/OrderMeal-Prefix.pch";
+				INFOPLIST_FILE = "OrderMeal/OrderMeal-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E673816517A0B815003132FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OrderMeal/OrderMeal-Prefix.pch";
+				INFOPLIST_FILE = "OrderMeal/OrderMeal-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E673813917A0B814003132FA /* Build configuration list for PBXProject "OrderMeal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E673816117A0B815003132FA /* Debug */,
+				E673816217A0B815003132FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E673816317A0B815003132FA /* Build configuration list for PBXNativeTarget "OrderMeal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E673816417A0B815003132FA /* Debug */,
+				E673816517A0B815003132FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E673813617A0B814003132FA /* Project object */;
+}
